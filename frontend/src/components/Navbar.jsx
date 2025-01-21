@@ -5,10 +5,12 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-      <i className="icon menu">☰</i> {/* Burger icon in left corner */}
-        <svg
-          width="65"
-          height="65"
+      <div className="burger-ison"><i className="icon menu"><svg width="35" height="35" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6 24H42M6 12H42M6 36H42" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg></i></div>
+        <div className="sticker-text"><svg
+          width="70"
+          height="70"
           viewBox="0 0 65 65"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -19,12 +21,12 @@ function Navbar() {
             fill="#1D1B20"
           />
         </svg>
-        <span>Translation Web App</span>
+        <span>Translate.AI</span></div>
       </div>
       <div className="navbar-right">
         <i className="icon bookmark"><svg
-            width="48"
-            height="48"
+            width="35"
+            height="35"
             viewBox="0 0 48 48"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -38,8 +40,8 @@ function Navbar() {
             />
           </svg></i>
         <i className="icon help"><svg
-            width="48"
-            height="48"
+            width="35"
+            height="35"
             viewBox="0 0 48 48"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -53,8 +55,8 @@ function Navbar() {
             />
           </svg></i>
         <i className="icon user"> <svg
-            width="48"
-            height="48"
+            width="35"
+            height="35"
             viewBox="0 0 48 48"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

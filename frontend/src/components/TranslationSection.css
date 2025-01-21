@@ -24,7 +24,7 @@
   display: flex;
   justify-content: flex-start; /* Push everything to the right */
   align-items: center;
-  
+  margin: 18px;
 }
 
 .buttons button {
