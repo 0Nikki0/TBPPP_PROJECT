@@ -1,0 +1,14 @@
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text color */
+    font-size: 1rem; /* Normal text size */
+    font-weight: 500;
+    border-top: 1px solid #ddd; /* Subtle border at the top */
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+  }
+  

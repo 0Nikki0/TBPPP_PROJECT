@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;  /* Ensure the navbar takes full width */
+  height: 70px;  /* Increased height */
+  padding: 0 20px;  /* Spacing on the left and right */
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  color:black;
+  box-sizing: border-box;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right .icon {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}

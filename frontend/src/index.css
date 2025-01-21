@@ -67,8 +67,6 @@ button:focus-visible {
   }
 } */
 
-/* Starts here */
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -76,7 +74,7 @@ button:focus-visible {
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #ffffff; /* Ensure white background */
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -95,19 +93,20 @@ a:hover {
 
 body {
   margin: 0;
+  padding:0;
   display: flex;
-  flex-direction: column; /* Ensure the content stretches vertically */
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;  /* Ensures content is centered horizontally */
   width: 100%;
-  background-color: #ffffff; /* White background */
+  height: 100%;
+  background-color: #ffffff;
 }
 
-#root {
+.app {
   width: 100%;
+  min-height: 100vh;
   margin: 0;
-  padding: 0;
 }
 
 h1 {
@@ -146,11 +145,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-/* Material UI AppBar override */
-.MuiAppBar-root {
-  background-color: whitesmoke; /* Lighter grey, closer to white */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
-}
-
-

@@ -1,0 +1,98 @@
+.translation-section {
+  /* margin: 0 auto;
+  width: 100%;
+  max-width: 1200px; */
+
+  margin-top: 10px; /* Adjusts space between WELCOME and translation box */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%; /* Adjust width as needed */
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.input-area, .output-area {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #fff; /* White background */
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start; /* Push everything to the right */
+  align-items: center;
+  
+}
+
+.buttons button {
+  margin-right: 10px; /* Add space between buttons */
+}
+
+textarea {
+  width: 95%;
+  height: 100px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #000; /* Thin black border */
+  background-color: #fff; /* White background */
+  color: black; /* Black text */
+}
+
+.translate-btn {
+  background-color: #fff; /* White background */
+  color: black; /* Black text */
+  padding: 10px 20px;
+  border: 1px solid black; /* Thin black border */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.translate-btn:hover {
+  background-color: #f0f0f0; /* Slight hover effect */
+}
+
+.output-options button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; /* White background */
+  color: black; /* Black text */
+  border: 1px solid black; /* Thin black border */
+}
+
+.output-options button:hover {
+  background-color: #f0f0f0; /* Slight hover effect */
+}
+
+/*---------------------------------------*/
+
+/* Right-align translate button and icons */
+.right-icons {
+  display: flex;
+  justify-content: flex-end; /* Push everything to the right */
+  align-items: center;
+  gap: 15px; /* Space between Translate button and icons */
+  margin-right: 10px; /* Add some space from the edge */
+}
+
+/* Translate button style */
+.translate-btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for SVG icons */
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
